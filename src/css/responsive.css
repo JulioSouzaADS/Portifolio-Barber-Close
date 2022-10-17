@@ -122,7 +122,8 @@
 
 @media (min-device-width: 436px) and (max-width: 575px) {
     .main {
-        height: calc(480px - 82px);
+        height: calc(400px - 82px);
+        min-height: 380px;
     }
 
     .main>img {
@@ -232,7 +233,7 @@
 @media (min-device-width: 1025px) and (max-width: 1200px) {
 
     .segunda-sessao {
-        height: 100vh;
+        height: 100%;
     }
 
     .segunda-sessao img {
@@ -246,7 +247,7 @@
 
 @media (min-device-width: 769px) and (max-width: 1024px) {
     .segunda-sessao {
-        height: 75vh;
+        height: 100%;
     }
 
     .segunda-sessao img {
