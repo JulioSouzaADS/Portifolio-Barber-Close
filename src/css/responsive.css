@@ -440,6 +440,7 @@
         width: 100vw;
         border-radius: 0px;
         text-align: center;
+        min-height: 400px;
     }
 
     .quinta-sessao .button-download {
@@ -449,19 +450,22 @@
     }
 }
 
-@media (min-device-width: 320px) and (max-width: 574px) {
+@media (min-device-width: 300px) and (max-width: 574px) {
     .quinta-sessao {
         height: 400px;
     }
 
     .quinta-sessao .informacoes {
         height: none;
-        min-height: 350px;
+        width: 100vw;
+        border-radius: 0px;
+        min-height: 400px;
     }
 
     .quinta-sessao .button-download {
         bottom: 5%;
         left: 10%;
+        height: 39px;
     }
 }
 
@@ -500,23 +504,36 @@
         height: 140px;
         padding: auto;
         margin: 10%;
-
+    }
+    .sexta-sessao .quadros img {
+        width: 45px;
     }
 }
 
+
 @media (min-device-width: 320px) and (max-width: 375px) {
     .sexta-sessao {
-
         text-align: center;
     }
 
     .sexta-sessao h3 {
         padding-top: 40px;
     }
-
+    .sexta-sessao .bloco-informacoes {
+        display: block;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+    }
     .sexta-sessao .quadros {
         height: 150px;
+        width: auto;
     }
+    
+    .sexta-sessao .quadros img {
+        width: 45px;
+    }
+
 }
 
 /* SETIMA SECTION*/
