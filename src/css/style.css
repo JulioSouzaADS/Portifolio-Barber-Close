@@ -1,7 +1,6 @@
 :root {
     --cor-branco: rgb(246, 249, 250);
     --cor-padrao-background: rgba(245, 245, 245);
-
     --cor-padrao-preto: #1C1B19;
     --cor-padrao: #1c191b;
 }
@@ -29,6 +28,7 @@
 
 body {
     font-family: 'Anek', sans-serif;
+    min-width: 300px;
 }
 
 .header {
@@ -52,7 +52,7 @@ body {
 .header a:hover h1 {
     color: coral;
 }
-
+/*main*/
     .main {
         display: flex;
         height: calc(1080px - 82px);
@@ -148,10 +148,10 @@ body {
             opacity: 0.9;
         }
     }
-
+/*segunda sessão*/
 .segunda-sessao {
     display: flex;
-    height: 1230;
+    height: 930;
     width: 100%;
     padding: auto;
     position: relative;
@@ -183,7 +183,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    position: absolute;
+    /* position: absolute; */
     font-family: 'Anek';
     font-weight: 700;
 }
@@ -222,7 +222,7 @@ body {
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-
+/*terceira sessao*/
 .terceira-sessao {
     display: flex;
     height: 600px;
@@ -309,13 +309,13 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-
+/*Quarta Sessao*/
 .quarta-sessao {
     display: flex;
     height: 600px;
     width: 100%;
     position: relative;
-    background-color: rgba(119, 153, 99, 0.1);
+    background-color: var(--cor-padrao-background);
     min-height: 650px;
 }
 
@@ -406,7 +406,7 @@ body {
     padding: auto;
     position: relative;
 }
-
+/*quinta sessao*/
 .quinta-sessao .informacoes {
     right: 0;
     justify-content: center;
@@ -567,7 +567,6 @@ body {
     font-size: 2rem;
     padding-bottom: 11px;
     font-family: 'Arial Rounded MT Bold';
-
 }
 
 .setima-sessao button img {
@@ -608,14 +607,20 @@ body {
     align-items: center;
     padding: 15%;
 }
+.oitava-sessao .conteudo-main-8 .conteudo .faq-help {
+    padding-bottom: 10px;
+    font-size: 2rem;
+    padding-left: 50%;
+    color: coral;
+    font-weight: 700;
+}
 
 .oitava-sessao .conteudo-main-8 .conteudo .faq-h2 {
     padding-bottom: 10px;
     font-family: "Anek";
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     padding-left: 25%;
-
 }
 
 .oitava-sessao .conteudo-main-8 .conteudo .faq-p {
@@ -632,7 +637,6 @@ body {
 
 .oitava-sessao .itens {
     list-style: none;
-
 }
 
 .oitava-sessao .itens .item {
@@ -642,7 +646,6 @@ body {
     background-size: 12px;
     border-bottom: 1px solid #CCC;
     margin: 10px 0;
-
 }
 
 .oitava-sessao .itens .item:last-child {
@@ -671,8 +674,7 @@ body {
 
 .oitava-sessao .conteudo-main-8 .conteudo .itens .item.ativo h2 {
     font-weight: 700;
-    font-size: 30px;
-    
+    font-size: 30px;  
 }
 
 .oitava-sessao .itens .item.ativo .resposta {
@@ -684,13 +686,11 @@ body {
     transition: 0.2s ease;
 }
 
-
 /* footer */
 footer {
     background-color: var(--cor-padrao-preto);
     padding: 30px;
     padding-bottom: 40px;
-    /* height: 100vh; */
 }
 
 footer h2,
@@ -805,7 +805,7 @@ footer .wrapper:after {
     height: 15vh;
     line-height: 15px;
     color: var(--cor-branco);
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .newslatter-info h2 {
@@ -869,4 +869,3 @@ footer .wrapper:after {
     font-size: 1.2rem;
     font-family: "Anek-bold";
 }
-
