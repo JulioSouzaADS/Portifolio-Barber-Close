@@ -293,19 +293,18 @@
         height: 59px;
         width: 190px;
         font-size: 2.0rem;
+        left: 35%;
 
     }
 }
 
 @media (min-device-width: 476px) and (max-width: 768px) {
     .segunda-sessao h2 {
-        font-size: 3rem;
-        width: 70%;
+        text-align: center;
     }
     .segunda-sessao p {
-        font-size: 3rem;
-        font-size: 2.5rem;
-        width: 60%;
+        width: 80%;
+        text-align: center;
     }
 
     .segunda-sessao img {
@@ -315,23 +314,27 @@
         height: 39px;
         width: 190px;
         font-size: 2.0rem;
+        left: 29%;
     }
 }
 
 @media (min-device-width: 300px) and (max-width: 475px) {
     .segunda-sessao h2 {
         font-size: 2.5rem;
-        width: 70%;
+        width: 90%;
+        text-align: center;
     }
     .segunda-sessao p {
         font-size: 3rem;
         font-size: 2rem;
-        width: 60%;
+        width: 80%;
+        text-align: center;
     }
     .segunda-sessao .button-download {
         height: 39px;
         width: 190px;
         font-size: 1.8rem;
+        left: 20%;
     }
     .segunda-sessao img {
         display: none;
@@ -339,7 +342,7 @@
 }
 /* SECTION 3 */
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
     .terceira-sessao img {
         display: none;
     }
@@ -352,6 +355,7 @@
 
     .terceira-sessao .button-p {
         bottom: 10%;
+        left: 30%;
     }
 }
 
@@ -364,9 +368,10 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (min-device-width: 300px) and (max-width: 475px) {
     .terceira-sessao h2 {
         padding-left: 35px;
+        width: 100%;
     }
 
     .terceira-sessao p {
@@ -382,12 +387,12 @@
     }
 
     .terceira-sessao .button-p {
-        left: 15%;
+        left: 25%;
     }
 }
 
 /* SECTION 4 */
-@media (max-width: 1025px) {
+@media (min-device-width: 768px) and (max-width: 1025px) {
     .quarta-sessao {
         width: 100%;
         text-align: center;
@@ -407,7 +412,6 @@
     .quarta-sessao .conteudo-main-4 {
         padding: 0px;
         width: 100%;
-        /* height: 75vh; */
         height: 600px;
     }
 
@@ -423,37 +427,55 @@
     .quarta-sessao .button-download {
         position: absolute;
         bottom: 20%;
+        left: 35%;
     }
 }
-
-@media (max-width: 767px) {
+@media (min-device-width: 476px) and (max-width: 767px){
+   
+    .quarta-sessao img {
+        display: none;
+    }
+    .quarta-sessao h2,p {
+        text-align: center;
+    }
+    .quarta-sessao .conteudo-main-4 {
+        width: 100vw;
+        padding: 10px;
+    }
     .quarta-sessao .button-download {
         height: 39px;
         width: 190px;
         font-size: 2rem;
+        left: 28%;
     }
+
 }
-
-@media (max-width: 475px) {
+@media (min-device-width: 300px) and (max-width: 475px){
     .quarta-sessao .conteudo-main-4 {
-        padding: 30px auto auto 10px;
+        padding: 10px;
+        width: 100vw;
+        
     }
-
+    .quarta-sessao img {
+        display: none;
+    }
     .quarta-sessao .informacoes {
         width: 100;
         overflow: hidden;
     }
 
-    .quarta-sessao h2 {
-        font-size: 4rem;
+    .quarta-sessao h2,p {
+        text-align: center;
         padding: 15px;
     }
 
     .quarta-sessao .button-download {
-        position: absolute;
-        bottom: 20%;
-        /* left: 20%; */
-    }
+            height: 39px;
+            width: 190px;
+            font-size: 2rem;
+            left: 28%;
+        }
+    
 }
 
 /* QUINTA SECTION */
