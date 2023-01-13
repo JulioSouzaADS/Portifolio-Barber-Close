@@ -19,6 +19,7 @@ Aqui estão as tecnologias utilizadas neste projeto.
 
 * Css
 * HTML
+* JavaScript
 
 ## Serviços Utilizados
 
